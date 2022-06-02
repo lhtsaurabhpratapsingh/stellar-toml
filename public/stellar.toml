@@ -8,17 +8,12 @@ KYC_SERVER = "https://stellartomlorg.herokuapp.com/kyc"
 DIRECT_PAYMENT_SERVER = "https://stellartomlorg.herokuapp.com/sep31"
 QUOTE_SERVER = "https://stellartomlorg.herokuapp.com/sep38"
 [[CURRENCIES]]
-code = "AstroDollar"
-issuer = "GBRZDRPULVPWPZFVRJYK4OMKY22QHZOD5KEUEGUALM2KADZ3U54QK6G6"
+code = "stellarTOML"
+issuer = "GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK"
 status = "test"
 is_asset_anchored = false
 desc = "Stellar Reference Token (SRT) is an asset issued on testnet and is used as an anchored asset for this reference server for demonstration and testing purposes."
-[[CURRENCIES]]
-code = "ZeptaCoin"
-issuer = "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG"
-status = "test"
-is_asset_anchored = false
-desc = "ZeptaCoin is an asset issued on testnet and is used as an anchored asset for this reference server for demonstration and testing purposes."
+
 [DOCUMENTATION]
 ORG_NAME = "Stellar Development Foundation"
 ORG_URL = "https://stellar.org"
