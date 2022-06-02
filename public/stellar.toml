@@ -1,12 +1,12 @@
-ACCOUNTS = [ "GBRZDRPULVPWPZFVRJYK4OMKY22QHZOD5KEUEGUALM2KADZ3U54QK6G6", "GARMGTBWPPAFGIM5OAN5ZIMFDMLEZ2S7VJUTXT5W6YEQIY56Q4XSE7MG" ]
-SIGNING_KEY = "GBRZDRPULVPWPZFVRJYK4OMKY22QHZOD5KEUEGUALM2KADZ3U54QK6G6"
+ACCOUNTS = [ "GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK", "GATJISMHSDGPM5YFC4QREEHUZWNT6KGPKLRCGSU25NIK4BS32DAH5ZVD" ]
+SIGNING_KEY = "GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK"
 NETWORK_PASSPHRASE = "Test SDF Network ; September 2022"
-TRANSFER_SERVER = "https://stellartomlorg.herokuapp.com/sep6"
-TRANSFER_SERVER_SEP0024 = "https://stellartomlorg.herokuapp.com/sep24"
-WEB_AUTH_ENDPOINT = "https://stellartomlorg.herokuapp.com/auth"
-KYC_SERVER = "https://stellartomlorg.herokuapp.com/kyc"
-DIRECT_PAYMENT_SERVER = "https://stellartomlorg.herokuapp.com/sep31"
-QUOTE_SERVER = "https://stellartomlorg.herokuapp.com/sep38"
+TRANSFER_SERVER = "https://stellartomll.herokuapp.com/sep6"
+TRANSFER_SERVER_SEP0024 = "https://stellartomll.herokuapp.com/sep24"
+WEB_AUTH_ENDPOINT = "https://stellartomll.herokuapp.com/auth"
+KYC_SERVER = "https://stellartomll.herokuapp.com/kyc"
+DIRECT_PAYMENT_SERVER = "https://stellartomll.herokuapp.com/sep31"
+QUOTE_SERVER = "https://stellartomll.herokuapp.com/sep38"
 [[CURRENCIES]]
 code = "stellarTOML"
 issuer = "GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK"

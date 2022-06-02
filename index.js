@@ -18,6 +18,30 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
     res.sendFile('stellar.toml', options);
   })
 
+  app.get('/sep24/info',(req,res)=>{
+    res.json({
+        "deposit": {
+            "stellarTOML": {
+                "enabled": true,
+                "fee_fixed": 1.0
+            }
+        },
+        "withdraw": {
+            "stellarTOML": {
+                "enabled": true,
+                "fee_fixed": 1.0
+            }
+        },
+        "fee": {
+            "enabled": true
+        },
+        "features": {
+            "account_creation": true,
+            "claimable_balances": true
+        }
+    })
+    })
+
 app.get('/', (req, res) =>{
     res.send('hello world')
 })
