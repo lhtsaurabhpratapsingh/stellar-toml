@@ -48,7 +48,7 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
       res.json({
         "account":"GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK",
         "home_domain":"stellartomll.herokuapp.com",
-        "client_domain":"test.com"
+        "client_domain":""
 
       })
     })
