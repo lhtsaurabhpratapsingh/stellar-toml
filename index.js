@@ -1,11 +1,13 @@
 const express = require('express');
 const cors = require('cors');
 
+// require('dotenv').config();
+
 const path = require('path');
 
 const app = express();
 
-const PORT = process.env.PORT || 4000;
+const PORT =  4000;
 
 app.use(cors());
 app.get('/.well-known/stellar.toml', (req, res, next) => {
@@ -46,7 +48,7 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
       res.json({
         "account":"GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK",
         "home_domain":"stellartomll.herokuapp.com",
-        "client_domain":""
+        "client_domain":"test.com"
 
       })
     })
